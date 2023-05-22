@@ -1,0 +1,26 @@
+{
+    "remotePath": "./akfol.com/wp-content/themes/boxshop-child",
+    "host": "77.65.213.36",
+    "username": "akfol_prod",
+    "password": "Serwetka55%",
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "agent": null,
+    "allow": [],
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "extensionsToInclude": [
+            ""
+        ],
+        "path": ""
+    }
+}

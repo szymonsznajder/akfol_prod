@@ -1,0 +1,36 @@
+/*
+Theme Name: BoxShop Child
+Theme URI: http://demo.theme-sky.com/boxshop/
+Author: Theme Sky Team
+Author URI: http://theme-sky.com/
+Description: A Premium and Responsive WordPress theme, designed for E-Commerce websites
+Template: boxshop
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: boxshop-child
+*/
+
+.menu-wrapper .vertical-menu > ul.menu li.ts-megamenu-columns-2 ul.sub-menu, .widget-container .vertical-menu li.ts-megamenu-columns-2 ul.sub-menu {
+    width: fit-content;
+}
+
+.ts-mega-menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+}
+
+.menu-wrapper nav > ul.menu > li ul li.widget_nav_menu, .menu-wrapper nav div.list-link, .widget-container .vertical-menu > ul.menu > li ul li.widget_nav_menu, .widget-container .vertical-menu div.list-link{
+    margin-bottom: 2rem;
+}
+
+.list-col {
+    width: 100%;
+}
+
+.list-col h4{
+    white-space: nowrap;
+}
+
